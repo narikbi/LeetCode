@@ -1,11 +1,12 @@
-
-//  main.cpp
+//
+//  357.cpp
 //  LeetCode
 //
-//  Created by Narikbi on 15.02.17.
+//  Created by Narikbi on 22.02.17.
 //  Copyright © 2017 app.leetcode.kz. All rights reserved.
 //
 
+#include <stdio.h>
 #include <iostream>
 #include <vector>
 #include <string>
@@ -19,15 +20,16 @@
 
 using namespace std;
 
-int main(int argc, const char * argv[]) {
+int countNumbersWithUniqueDigits(int n) {
+    if (n == 0) return 1;
     
+    int base = 9;
+    int ans = 10;
+    for (int i = 2; i <= n; i++) {
+        base = base * (9 - i + 2);
+        ans += base;
+    }
     
-    return 0;
+    return ans;
 }
-
-
-
-
-
-
 
