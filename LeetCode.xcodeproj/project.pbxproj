@@ -11,6 +11,11 @@
 		ED0C6A261E5638E200B9838E /* 513.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED0C6A251E5638E200B9838E /* 513.cpp */; };
 		ED0C6A281E56443B00B9838E /* 515.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED0C6A271E56443B00B9838E /* 515.cpp */; };
 		ED0C6A2A1E564DE500B9838E /* 508.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED0C6A291E564DE500B9838E /* 508.cpp */; };
+		ED3479361E5E13EF00E9A9C9 /* 526.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED3479351E5E13EF00E9A9C9 /* 526.cpp */; };
+		ED3479381E5E14E100E9A9C9 /* 169.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED3479371E5E14E100E9A9C9 /* 169.cpp */; };
+		ED34793A1E5E17B500E9A9C9 /* 343.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED3479391E5E17B500E9A9C9 /* 343.cpp */; };
+		ED34793C1E5E1A8300E9A9C9 /* 409.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED34793B1E5E1A8300E9A9C9 /* 409.cpp */; };
+		ED34793E1E5E210700E9A9C9 /* 454.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED34793D1E5E210700E9A9C9 /* 454.cpp */; };
 		ED405BBB1E538F4700E2B4C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED405BBA1E538F4700E2B4C0 /* main.cpp */; };
 		ED405BC21E5391F600E2B4C0 /* 461.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED405BC11E5391F600E2B4C0 /* 461.cpp */; };
 		ED405BC41E53957A00E2B4C0 /* 500.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED405BC31E53957A00E2B4C0 /* 500.cpp */; };
@@ -64,6 +69,11 @@
 		ED0C6A251E5638E200B9838E /* 513.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 513.cpp; sourceTree = "<group>"; };
 		ED0C6A271E56443B00B9838E /* 515.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 515.cpp; sourceTree = "<group>"; };
 		ED0C6A291E564DE500B9838E /* 508.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 508.cpp; sourceTree = "<group>"; };
+		ED3479351E5E13EF00E9A9C9 /* 526.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 526.cpp; sourceTree = SOURCE_ROOT; };
+		ED3479371E5E14E100E9A9C9 /* 169.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 169.cpp; sourceTree = "<group>"; };
+		ED3479391E5E17B500E9A9C9 /* 343.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 343.cpp; sourceTree = "<group>"; };
+		ED34793B1E5E1A8300E9A9C9 /* 409.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 409.cpp; sourceTree = "<group>"; };
+		ED34793D1E5E210700E9A9C9 /* 454.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 454.cpp; sourceTree = "<group>"; };
 		ED405BB71E538F4700E2B4C0 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED405BBA1E538F4700E2B4C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ED405BC11E5391F600E2B4C0 /* 461.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 461.cpp; sourceTree = "<group>"; };
@@ -171,6 +181,11 @@
 				EDE2125C1E5CDE3D00866F9C /* 477.cpp */,
 				EDE2125E1E5CE04800866F9C /* 357.cpp */,
 				EDE212601E5CE2DF00866F9C /* 384.cpp */,
+				ED3479351E5E13EF00E9A9C9 /* 526.cpp */,
+				ED3479371E5E14E100E9A9C9 /* 169.cpp */,
+				ED3479391E5E17B500E9A9C9 /* 343.cpp */,
+				ED34793B1E5E1A8300E9A9C9 /* 409.cpp */,
+				ED34793D1E5E210700E9A9C9 /* 454.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -233,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED34793E1E5E210700E9A9C9 /* 454.cpp in Sources */,
 				EDB2D0E51E588643005F4655 /* 260.cpp in Sources */,
 				EDE212611E5CE2DF00866F9C /* 384.cpp in Sources */,
 				ED0C6A241E562FE900B9838E /* 448.cpp in Sources */,
@@ -245,6 +261,7 @@
 				ED988E8B1E54D86D000ECD48 /* 485.cpp in Sources */,
 				EDB2D0E71E588689005F4655 /* 167.cpp in Sources */,
 				EDB2D0EB1E589537005F4655 /* 455.cpp in Sources */,
+				ED34793A1E5E17B500E9A9C9 /* 343.cpp in Sources */,
 				ED405BC41E53957A00E2B4C0 /* 500.cpp in Sources */,
 				EDB2D0DD1E578EF7005F4655 /* 462.cpp in Sources */,
 				ED988E871E54C774000ECD48 /* 412.cpp in Sources */,
@@ -257,9 +274,12 @@
 				EDB2D0EF1E5898E9005F4655 /* 504.cpp in Sources */,
 				ED405BC81E539DC600E2B4C0 /* 419.cpp in Sources */,
 				EDB2D0E31E579EF7005F4655 /* 506.cpp in Sources */,
+				ED3479381E5E14E100E9A9C9 /* 169.cpp in Sources */,
 				ED405BCA1E53A46200E2B4C0 /* 496.cpp in Sources */,
+				ED34793C1E5E1A8300E9A9C9 /* 409.cpp in Sources */,
 				EDB2D0DF1E5798FB005F4655 /* 492.cpp in Sources */,
 				EDB2D0F51E58EADC005F4655 /* 481.cpp in Sources */,
+				ED3479361E5E13EF00E9A9C9 /* 526.cpp in Sources */,
 				EDE212591E5CCBE400866F9C /* 445.cpp in Sources */,
 				ED988E8F1E54E3F0000ECD48 /* 406.cpp in Sources */,
 				ED988E891E54D7B3000ECD48 /* 463.cpp in Sources */,

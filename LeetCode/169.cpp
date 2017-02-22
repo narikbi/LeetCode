@@ -1,11 +1,12 @@
-
-//  main.cpp
+//
+//  169.cpp
 //  LeetCode
 //
-//  Created by Narikbi on 15.02.17.
+//  Created by Narikbi on 23.02.17.
 //  Copyright © 2017 app.leetcode.kz. All rights reserved.
 //
 
+#include <stdio.h>
 #include <iostream>
 #include <vector>
 #include <string>
@@ -19,16 +20,16 @@
 
 using namespace std;
 
-int main(int argc, const char * argv[]) {
+int majorityElement(vector<int>& nums) {
     
-    
+    map <int, int> m;
+    for (int x : nums) {
+        m[x]++;
+        if (m[x] > nums.size()/2) {
+            return x;
+        }
+    }
     
     return 0;
 }
-
-
-
-
-
-
 
