@@ -1,11 +1,12 @@
-
-//  main.cpp
+//
+//  217.cpp
 //  LeetCode
 //
-//  Created by Narikbi on 15.02.17.
+//  Created by Narikbi on 24.02.17.
 //  Copyright © 2017 app.leetcode.kz. All rights reserved.
 //
 
+#include <stdio.h>
 #include <iostream>
 #include <vector>
 #include <string>
@@ -21,16 +22,16 @@
 
 using namespace std;
 
-
-
-int main(int argc, const char * argv[]) {
-    
-    return 0;
+bool containsDuplicate(vector<int>& nums) {
+    map <int, int> m;
+    for (int i = 0; i < nums.size(); i++) {
+        m[nums[i]]++;
+        if (m[nums[i]] > 2) {
+            return true;
+        }
+    }
+    return false;
 }
-
-
-
-
 
 
 
